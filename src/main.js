@@ -9,10 +9,12 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
 /* import specific icons */
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { faCircleUser, faMagnifyingGlass, faUserSecret } from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
 library.add(faUserSecret)
+library.add(faCircleUser)
+library.add(faMagnifyingGlass)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
