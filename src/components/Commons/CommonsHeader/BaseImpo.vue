@@ -4,7 +4,7 @@
 
         <div class="language">
             <img src="../../../assets/img/en.png" alt="English">
-            <span>ENGLISH &#709;</span>
+            <span>ENGLISH <font-awesome-icon class="arrow-down" icon="fa-solid fa-chevron-down" /></span>
         </div>
 
         <div class="account">
@@ -42,6 +42,11 @@ export default {
 
         .language{
             align-self: center;
+
+            .arrow-down{
+                font-size: .8125rem;
+                margin-right: .625rem;
+            }
 
             img{
                 width: 1.25rem;

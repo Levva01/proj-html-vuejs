@@ -3,12 +3,12 @@
 
     <ul>
 
-        <li>Home &#709;</li>
-        <li>Pages &#709;</li>
-        <li>Course &#709;</li>
-        <li>Features &#709;</li>
-        <li>Blog &#709;</li>
-        <li>Shop &#709;</li>
+        <li>Home <font-awesome-icon class="arrow-down"  icon="fa-solid fa-chevron-down" /></li>
+        <li>Pages <font-awesome-icon class="arrow-down"  icon="fa-solid fa-chevron-down" /></li>
+        <li>Course <font-awesome-icon class="arrow-down"  icon="fa-solid fa-chevron-down" /></li>
+        <li>Features <font-awesome-icon class="arrow-down"  icon="fa-solid fa-chevron-down" /></li>
+        <li>Blog <font-awesome-icon class="arrow-down"  icon="fa-solid fa-chevron-down" /></li>
+        <li>Shop <font-awesome-icon class="arrow-down"  icon="fa-solid fa-chevron-down" /></li>
 
     </ul>
 
@@ -26,9 +26,14 @@ export default {
     .header__nav{
         ul{
             display: flex;
-            gap: .9375rem;
+            gap: 1.875rem;
             li{
                 list-style-type: none;
+
+                .arrow-down{
+                    font-size: 13px;
+                }
+
             }
         }
     }
