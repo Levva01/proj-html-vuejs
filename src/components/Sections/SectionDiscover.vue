@@ -88,6 +88,8 @@ export default {
 
                 p{
                     color: gray;
+                    font-size: small;
+                    padding: 0 .625rem;
                 }
 
                 hr{
@@ -103,7 +105,7 @@ export default {
 
                     .arrow{
                         font-size: 12px;
-                        
+
                     }
                 }
             }
