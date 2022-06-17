@@ -154,7 +154,7 @@
 
     </div>
 
-    <p>Excited about our event? <strong>View all events <font-awesome-icon icon="fa-solid fa-arrow-right-long" /></strong></p>
+    <p>Excited about our event? <strong class="view">View all events <font-awesome-icon icon="fa-solid fa-arrow-right-long" /></strong></p>
 
   </section>
 </template>
@@ -167,5 +167,84 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+    .events{
+        padding: 5rem 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h4{
+            color: #20ad96;
+            margin-bottom: 0;
+        }
+
+        h2{
+            font-size: 1.875rem;
+        }
+
+        &__container{
+
+            display: flex;
+            flex-wrap: wrap;
+            width: 70%;
+            gap: 1.25rem;
+            margin: 3.125rem 0;
+
+            &__card{
+                text-align: left;
+                width: calc(50% - 30px);
+                display: flex;
+                background-color: #f8f8f8;
+                padding: 1.25rem .625rem;
+
+                .left-side{
+                    width: 70%;
+                    padding-top: 1.25rem;
+                    padding-left: 1.25rem;
+
+                    .place{
+                        color: lightgray;
+                        margin-bottom: .625rem;
+                    }
+
+                }
+
+                .right-side{
+                    text-align: center;
+                    .day{
+                        color: #20ad96;
+                        font-size: 1.875rem;
+                    }
+                    .month{
+                        margin-bottom: .3125rem;
+                        font-weight: bold;
+                        font-size: .625rem;
+                    }
+
+                    button{
+                        background-color: #20ad96;
+                        color: white;
+                        border: none;
+                        padding: .3125rem 1.5625rem;
+                        border-radius: .3125rem;
+                    }
+                }
+            }
+
+
+        }
+
+        .view{
+            color: #20ad96;
+            text-decoration: underline;
+            text-decoration-color: lightgray;
+            text-decoration-thickness: 1px;
+            
+
+        }
+
+    }
 
 </style>
