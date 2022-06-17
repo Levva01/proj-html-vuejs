@@ -8,7 +8,7 @@
     <div class="reviews__container">
 
 
-        <div class="reviews__container__card">
+        <div class="reviews__container__card op-30">
 
             <h5>It's a choice of quality for people with special needs</h5>
 
@@ -42,7 +42,7 @@
 
         </div>
 
-        <div class="reviews__container__card">
+        <div class="reviews__container__card op-30">
 
             <h5>Professional team of specialists and passionate mentors at reach</h5>
 
@@ -72,5 +72,78 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+
+    .reviews{
+
+        padding: 5rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f8f8f8;
+
+    
+        h4{
+            color: #20ad96;
+            margin-bottom: 0;
+
+        }
+
+        h2{
+            font-size: 1.875rem;
+            margin-bottom: 3.125rem;
+        }
+
+        &__container{
+
+            display: flex;
+            width: 90%;
+            gap: 1.875rem;
+
+
+            &__card{
+
+                width: calc(33.3% - 30px);
+                background-color: white;
+                padding: 1.25rem;
+                h5{
+                    font-size: 1.0625rem;
+                }
+
+                p{
+                    font-size: .875rem;
+                    line-height: 1.4375rem;
+                    color: gray;
+                }
+
+                .profile{
+                    display: flex;
+                    align-items: center;
+                    gap: 1.25rem;
+
+                    img{
+                        margin-top: .625rem;
+                        border-radius: 50%;
+                        width: 4.375rem;
+                        height: 4.375rem;
+                    }
+
+                }
+
+                .user{
+                    h5{
+                        margin-bottom: 0;
+                    }
+
+                }
+
+            }
+
+            .op-30{
+                opacity: 30%;
+            }
+
+        }
+
+    }
 
 </style>
