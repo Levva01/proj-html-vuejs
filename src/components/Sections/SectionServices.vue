@@ -54,6 +54,10 @@ export default {
         padding: 5rem 0;
         text-align: center;
 
+        strong{
+            color: #20ad96;
+        }
+
         display: flex;
         flex-direction: column;
         align-items: center;
