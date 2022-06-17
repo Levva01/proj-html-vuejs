@@ -9,7 +9,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
 /* import specific icons */
-import { faArrowRightLong, faChevronDown, faCircleChevronDown, faCircleChevronUp, faCircleUser, faMagnifyingGlass, faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRightLong, faChevronDown, faCircleChevronDown, faCircleChevronUp, faCircleUser, faLocationDot, faMagnifyingGlass, faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookSquare, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
 library.add(faUserSecret)
@@ -19,6 +20,11 @@ library.add(faChevronDown)
 library.add(faArrowRightLong)
 library.add(faCircleChevronUp)
 library.add(faCircleChevronDown)
+library.add(faLocationDot)
+library.add(faTwitter)
+library.add(faFacebookSquare)
+library.add(faInstagram)
+library.add(faLinkedin)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
