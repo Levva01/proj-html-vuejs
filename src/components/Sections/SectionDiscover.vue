@@ -17,7 +17,7 @@
 
         
         <div class="discover__container__card">
-            <img src="../../assets/img/home-business-service-slide-02-480x298.jpg" alt="">
+            <img src="../../assets/img/home-business-service-slide-002-480x298.jpg" alt="">
             <h3>Consultative Training</h3>
             <p>With a coach addressing multiple issues that are off balance, affecting your business in various unconsidered ways.</p>
             <hr>
